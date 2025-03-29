@@ -21,3 +21,6 @@ class Singleton:
     def __init__(self): 
         print('<init> called...')
 
+s1 = Singleton() # creating first instance
+s2 = Singleton() # creating second instance
+print(s1 is s2) # check if both instances are the same
